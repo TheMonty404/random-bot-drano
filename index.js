@@ -17,7 +17,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 //this fires when the BOT STARTS DO NOT TOUCH
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "boy")) {
+  if (message.content.startsWith(PREFIX + "b")) {
     let man = [
       "https://media.discordapp.net/attachments/786897044483604490/803870769313480714/Enes_Acar_GIF_70.gif",
       "https://media.discordapp.net/attachments/786897044483604490/803870793716858880/a_57a7f6c875e3a329b170edf177392911.gif",
@@ -70,7 +70,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "girl")) {
+  if (message.content.startsWith(PREFIX + "g")) {
     let girl = [
       "https://media.discordapp.net/attachments/786897045436366849/804968189892755456/image2-1.gif",
       "https://media.discordapp.net/attachments/786897045436366849/804968223577604126/gif472.gif",
@@ -117,7 +117,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "couple")) {
+  if (message.content.startsWith(PREFIX + "c")) {
     let loves = [
       "https://media.discordapp.net/attachments/608711480346542102/782233713538498600/hit_gif_5.gif",
       "https://media.discordapp.net/attachments/608711480346542102/782286421020508170/image0_1.gif",
@@ -164,7 +164,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "sad")) {
+  if (message.content.startsWith(PREFIX + "s")) {
     let sads = [
       "https://media.discordapp.net/attachments/786897045952790550/798719676795715614/Zeyrox_43.gif",
       "https://media.discordapp.net/attachments/786897045952790550/799435191323852820/luisa1-1.gif",
@@ -196,7 +196,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "anime")) {
+  if (message.content.startsWith(PREFIX + "a")) {
     let man = [
       "https://media.discordapp.net/attachments/608711485849337856/855998757451989002/image0-2.gif",
       "https://media.discordapp.net/attachments/608711485849337856/856002084461084682/image0-4.gif",
@@ -233,7 +233,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "cartoon")) {
+  if (message.content.startsWith(PREFIX + "c")) {
     let girl = [
       "https://media.discordapp.net/attachments/755169627872428134/855635705242058752/g0yPLFTYpr283dUJBs.gif",
       "https://media.discordapp.net/attachments/755169627872428134/855792117719498752/video0.gif",
@@ -880,8 +880,8 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(` ${PREFIX}help - Random Bot Is here for fun`, { type: "WATCHING"});
-    client.user.setActivity(` ${PREFIX}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "WATCHING"});
+    client.user.setActivity(` Evils°Community`, { type: "WATCHING"});
+    client.user.setActivity(` Bot Reviewer, { type: "WATCHING"});
    
   
       }, (5000));
@@ -1104,6 +1104,56 @@ client.on("guildCreate" , DarkMan => {
 
 })
 
+client.on('message', message => {
+  if (message.channel.id === "872809761899438090") {
+ 
+ 
+ 
+    message.react(':58A7DFA9E0434C8DB29BAC0BDCD41B75: ')
+      .then(() => {
+        message.react(':gem1f3: ')
+      });
+  }
+});
+
+
+client.on('message', message => {
+  if (message.channel.id === "872809762704736276") {
+ 
+ 
+ 
+    message.react(':emoji_36:  ')
+      .then(() => {
+        message.react(':emoji_15: ')
+      });
+  }
+});
+
+
+client.on('message', message => {
+  if (message.channel.id === "872809763732348968") {
+ 
+ 
+ 
+    message.react('<a:emoji_15:845102580769620007> ')
+      .then(() => {
+        message.react('<a:emoji_134:873255244400824320> ')
+      });
+  }
+});
+
+
+client.on('message', message => {
+  if (message.channel.id === "872809764734771250") {
+ 
+ 
+ 
+    message.react('<a:emoji_15:845102580769620007> ')
+      .then(() => {
+        message.react('<a:emoji_134:873255244400824320> ')
+      });
+  }
+});
 
 
 //Bot coded by Monty#6985 
